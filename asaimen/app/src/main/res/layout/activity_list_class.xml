@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:id="@+id/txt1"
+    android:background="#D9E9E0"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:text="Danh sach lop"
+    android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tbtlRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:weightSum="100">
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="10"
+                android:background="#E7F0E7"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="STT"/>
+            <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="30"
+            android:background="#E7F0E7"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:text="Ma Lop"/>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="60"
+                android:background="#E7F0E7"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="Ten Lop"/>
+        </TableRow>
+    </TableLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ltvListClass"></ListView>
+</LinearLayout>
