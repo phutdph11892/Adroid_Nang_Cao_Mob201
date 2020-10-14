@@ -9,19 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Lap72Activity">
-
-        </activity>
-        <activity android:name=".Lap71Activity">
-
-    </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Bai3lap7Activity"></activity>
+        <activity android:name=".Bai1Lap7Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Lap72Activity" />
+        <activity android:name=".Lap71Activity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
